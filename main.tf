@@ -1,10 +1,11 @@
 provider "aws" {
-region = "us-east-1"
+region = "ap-south-1"
 
 }
 resource "aws_instance" "ec2" {
-ami="ami-012967cc5a8c9f891"
+ami="ami-0614680123427b75e"
 instance_type = "t2.large"
+
 
 }
 
